@@ -1,0 +1,32 @@
+.calendar-container {
+  text-align: center;
+}
+
+.booked {
+  background-color: #ff4d4d !important;
+  /* Röd bakgrund */
+  color: white !important;
+  border-radius: 50%;
+}
+
+.selected {
+  background-color: #4d79ff !important;
+  /* Blå bakgrund */
+  color: white !important;
+  border-radius: 50%;
+}
+
+.confirm-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4d79ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.confirm-btn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
