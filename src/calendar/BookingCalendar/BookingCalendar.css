@@ -1,10 +1,11 @@
 .calendar-container {
+  padding-top: 3%;
   text-align: center;
   justify-items: center;
 }
 
 .booked {
-  background-color: #ff4d4d !important;
+  background-color: #ff4d4d4f !important;
   /* Röd bakgrund */
   color: white !important;
   border-radius: 50%;
@@ -33,5 +34,7 @@
 }
 
 .react-calendar {
+  width: 50%;
   border-radius: 25px;
+  border-width: 6px;
 }
