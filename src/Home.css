@@ -2,11 +2,21 @@
   text-align: center;
 }
 
+.filler {
+  height: 10px;
+}
+
+.pic {
+  border-radius: 25px;
+}
 
 
 .Home-header {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(1, 70px);
+  justify-items: center;
+  padding: 1%;
   /* e.g. 
           1fr 1fr
           minmax(10px, 1fr) 3fr
@@ -18,7 +28,6 @@
   border-width: 1px;
   border-style: solid;
   border-color: red;
-  background-color: #fbf8ea;
 
 
   flex-direction: column;
@@ -28,6 +37,17 @@
   color: black;
 }
 
+.casadelcatarina {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.calendar {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+}
 
 .logocontainer {
   grid-column-start: 2;
@@ -35,4 +55,17 @@
 
 .Home-link {
   color: #61dafb;
+}
+
+.maintext {
+  border-radius: 25px;
+  width: 34%;
+  border: 2px solid black;
+}
+
+.homewrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3%;
 }
