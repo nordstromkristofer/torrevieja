@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import pic from "./pics/cl_sign_fasad_01_2015.webp"
 import pic2 from "./pics/IMG_8240.jpg"
+import "./slideshow.css"
 import "swiper/css";
 import "swiper/css/navigation";
 

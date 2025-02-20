@@ -1,0 +1,12 @@
+.slide-image {
+  width: 400px;
+  height: 400px;
+  /* Justera höjden så att alla bilder är lika stora */
+  object-fit: cover;
+  /* Gör så att bilder inte sträcks ut */
+  border-radius: 10px;
+}
+
+.slideshow-container {
+  width: 40%
+}

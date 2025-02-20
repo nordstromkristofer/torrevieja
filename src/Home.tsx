@@ -31,8 +31,9 @@ function Home() {
 
       <div className='homewrapper'>
         {/*        <div className='pics'> <img src={pic} className='pic'></img></div>
-        <div className='maintext'> <h1>Text1</h1> <p>blablablabla</p></div> */}
+         */}
         <Slideshow />
+        <div className='maintext'> <h1>Text1</h1> <p>blablablabla</p></div>
       </div>
     </div >
   );
