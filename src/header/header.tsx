@@ -15,6 +15,15 @@ function Header() {
         <div className='calendarlink'>
           <NavLink to="/calendar" className="nav-link">Bokning via kalender</NavLink>
         </div>
+        <div className='todo'>
+          <NavLink to="/todo" className="nav-link">Inför resa</NavLink>
+        </div>
+        <div className='b4leave'>
+          <NavLink to="/b4leave" className="nav-link">Innan du lämnar lägenheten</NavLink>
+        </div>
+        <div className='contact'>
+          <NavLink to="/contact" className="nav-link">Kontakt</NavLink>
+        </div>
       </div>
     </div >
   );

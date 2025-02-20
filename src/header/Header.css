@@ -99,3 +99,18 @@ a {
   color: rgb(0, 0, 0);
   font-weight: bold;
 }
+
+.todo {
+  grid-column-start: 6;
+  display: flex;
+}
+
+.b4leave {
+  grid-column-start: 8;
+  display: flex;
+}
+
+.contact {
+  grid-column-start: 10;
+  display: flex;
+}
