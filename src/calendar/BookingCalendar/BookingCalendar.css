@@ -1,40 +1,82 @@
+/* Modern stil för kalendern */
 .calendar-container {
-  padding-top: 3%;
-  text-align: center;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: auto;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.react-calendar {
+  width: 100%;
+  max-width: 350px;
+  background: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+}
+
+.react-calendar__tile {
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+  font-weight: 500;
+}
+
+.react-calendar__tile:hover {
+  background-color: #eef4ff;
+  transform: scale(1.05);
 }
 
 .booked {
-  background-color: #ff4d4d4f !important;
-  /* Röd bakgrund */
+  background-color: #ff6b6b !important;
+  /* Röd för redan bokade */
   color: white !important;
   border-radius: 50%;
 }
 
 .selected {
   background-color: #4d79ff !important;
-  /* Blå bakgrund */
+  /* Blå för valda */
   color: white !important;
   border-radius: 50%;
 }
 
+.available {
+  background-color: white;
+  color: #333;
+}
+
 .confirm-btn {
-  margin-top: 10px;
-  padding: 10px 20px;
+  width: 100%;
+  padding: 12px;
   background-color: #4d79ff;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .confirm-btn:disabled {
-  background-color: gray;
+  background-color: #ccc;
   cursor: not-allowed;
 }
 
-.react-calendar {
-  width: 50%;
-  border-radius: 25px;
-  border-width: 6px;
+.confirm-btn:hover:not(:disabled) {
+  background-color: #1a57ff;
+  transform: scale(1.05);
 }

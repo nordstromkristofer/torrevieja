@@ -1,9 +1,7 @@
-
-
 import React, { useState } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
-import "./BookingCalendar.css"; // Lägg till egen styling här
+import "./BookingCalendar.css"; // Uppdaterad styling
 
 type ValuePiece = Date | null;
 type Value = ValuePiece | [ValuePiece, ValuePiece];
@@ -34,6 +32,7 @@ const BookingCalendar: React.FC = () => {
 
   return (
     <div className="calendar-container">
+      <h2 className="title">Boka en tid</h2>
       <Calendar
         onClickDay={handleDateClick}
         tileClassName={({ date }) => {
@@ -43,7 +42,7 @@ const BookingCalendar: React.FC = () => {
           if (selectedDates.some((d) => d.toDateString() === date.toDateString())) {
             return "selected"; // Blå bakgrund
           }
-          return "";
+          return "available"; // Default-styling
         }}
       />
       <button onClick={confirmBooking} disabled={selectedDates.length === 0} className="confirm-btn">
@@ -52,6 +51,5 @@ const BookingCalendar: React.FC = () => {
     </div>
   );
 };
-
 
 export default BookingCalendar;
