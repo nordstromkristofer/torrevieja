@@ -1,5 +1,6 @@
 .calendar-container {
   text-align: center;
+  justify-items: center;
 }
 
 .booked {
@@ -29,4 +30,8 @@
 .confirm-btn:disabled {
   background-color: gray;
   cursor: not-allowed;
+}
+
+.react-calendar {
+  border-radius: 25px;
 }
