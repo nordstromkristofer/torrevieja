@@ -19,7 +19,7 @@ function Header() {
           <NavLink to="/todo" className="nav-link">Inför resa</NavLink>
         </div>
         <div className='b4leave'>
-          <NavLink to="/b4leave" className="nav-link">Innan du lämnar lägenheten</NavLink>
+          <NavLink to="/b4leave" className="nav-link">Innan du lämnar</NavLink>
         </div>
         <div className='contact'>
           <NavLink to="/contact" className="nav-link">Kontakt</NavLink>
