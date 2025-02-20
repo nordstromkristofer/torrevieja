@@ -2,14 +2,14 @@ import React from 'react';
 
 import './/Calendar.css';
 import Header from '../header/header'
-import CalendarObject from './calendarobject/Calendar';
+import BookingCalendar from './BookingCalendar/BookingCalendar';
 
 function Calendar() {
   return (
     <div className="Calendar">
       <div className='filler'></div>
       <Header />
-      <CalendarObject />
+      <BookingCalendar />
     </div>
   );
 }
