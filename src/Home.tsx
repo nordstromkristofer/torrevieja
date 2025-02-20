@@ -28,10 +28,11 @@ function Home() {
         </div>
         <div className='calendarlink'></div> <a className='calendar' href="/calendar">Bokning via kalender</a>
       </div> */}
-      <Slideshow />
+
       <div className='homewrapper'>
         {/*        <div className='pics'> <img src={pic} className='pic'></img></div>
         <div className='maintext'> <h1>Text1</h1> <p>blablablabla</p></div> */}
+        <Slideshow />
       </div>
     </div >
   );
