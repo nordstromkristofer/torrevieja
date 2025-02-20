@@ -31,10 +31,17 @@ function B4leave() {
         </div>
         <div className='todobox'>
           <h1 className='boxrubrik'>Kök</h1>
-          <p className='boxparagraph'>Avfrosta kyl/frys, torka den sedan torr. Lämna en handduk o dörrarna lite öppna (som bilden nedan)
-            Torka av ytor i köket lämna sedan skåpsdörr under diskho lite öppen (lämna lilla baljan under diskhon).
-            Diska eventuell disk.
-            Lämna ingen mat, donera istället överbliven mat till Raise for hope på andra sidan gatan.
+          <p className='boxparagraph'>
+            <ul>
+              <li> Avfrosta kyl/frys, torka den sedan torr. Lämna en handduk o dörrarna lite öppna (som bilden nedan)</li>
+              <li>Torka av ytor i köket lämna sedan skåpsdörr under diskho lite öppen (lämna lilla baljan under diskhon).</li>
+              <li>Diska eventuell disk.</li>
+              <li>Lämna ingen mat, donera istället överbliven mat till Raise for hope på andra sidan gatan.</li>
+            </ul>
+
+
+
+
           </p>
         </div>
       </div>
