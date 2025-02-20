@@ -10,13 +10,13 @@ function Header() {
       <div className='filler'></div>
       <div className="Home-header">
         <div className='logocontainer'>
-          <NavLink to="/" className="nav-link1">Casa del Catarina</NavLink>
+          <NavLink to="/" className="nav-link1">Casa del Catharina</NavLink>
         </div>
         <div className='calendarlink'>
           <NavLink to="/calendar" className="nav-link">Bokning via kalender</NavLink>
         </div>
         <div className='todo'>
-          <NavLink to="/todo" className="nav-link">Inför resa</NavLink>
+          <NavLink to="/todo" className="nav-link">Vid ankomst</NavLink>
         </div>
         <div className='b4leave'>
           <NavLink to="/b4leave" className="nav-link">Innan du lämnar</NavLink>
