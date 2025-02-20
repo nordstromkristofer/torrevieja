@@ -10,7 +10,7 @@ function Header() {
       <div className='filler'></div>
       <div className="Home-header">
         <div className='logocontainer'>
-          <NavLink to="/" className="nav-link">Casa del Catarina</NavLink>
+          <NavLink to="/" className="nav-link1">Casa del Catarina</NavLink>
         </div>
         <div className='calendarlink'>
           <NavLink to="/calendar" className="nav-link">Bokning via kalender</NavLink>
