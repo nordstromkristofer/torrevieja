@@ -32,7 +32,6 @@ const BookingCalendar: React.FC = () => {
 
   return (
     <div className="calendar-container">
-      <h2 className="title">Boka en tid</h2>
       <Calendar
         onClickDay={handleDateClick}
         tileClassName={({ date }) => {
