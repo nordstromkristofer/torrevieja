@@ -1,0 +1,34 @@
+    .todoboxes {
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+
+    .todobox {
+
+      display: flex;
+      align-items: center;
+      width: 20%;
+      height: 700px;
+      border: 5px solid black;
+      border-radius: 25px;
+      flex-direction: column;
+
+
+    }
+
+    .todorubrik {
+      display: flex;
+      justify-content: center;
+    }
+
+    .boxrubrik {
+      display: flex;
+      justify-content: center;
+    }
+
+    .boxparagraph {
+      width: 78%;
+    }
