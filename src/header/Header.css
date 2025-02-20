@@ -99,3 +99,15 @@ a {
   color: rgb(0, 0, 0);
   font-weight: bold;
 }
+
+.todo {
+  grid-column-start: 6;
+}
+
+.b4leave {
+  grid-column-start: 8;
+}
+
+.contact {
+  grid-column-start: 10;
+}
