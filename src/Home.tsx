@@ -1,13 +1,15 @@
 import React from 'react';
 
-import './App.css';
+import './Home.css';
 
 function Home() {
   return (
     <div className="Home">
-      <header className="Home-header">
-        <h2>Hemma</h2>
-      </header>
+      <div className="Home-header">
+        <div className='logocontainer'>
+          <h2>Casa del Catarina</h2>
+        </div>
+      </div>
     </div>
   );
 }

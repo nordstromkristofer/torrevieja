@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Calendar from "./calendar/Calendar"
 import Home from "./Home"
 
-import './App.css';
+import './Home.css';
 
 function App() {
   return (

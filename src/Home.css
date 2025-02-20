@@ -1,0 +1,38 @@
+.Home {
+  text-align: center;
+}
+
+
+
+.Home-header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* e.g. 
+          1fr 1fr
+          minmax(10px, 1fr) 3fr
+          
+          50px auto 100px 1fr
+      */
+
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  background-color: #fbf8ea;
+
+
+  flex-direction: column;
+  align-items: center;
+  align-content: baseline;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+
+.logocontainer {
+  grid-column-start: 2;
+}
+
+.Home-link {
+  color: #61dafb;
+}
