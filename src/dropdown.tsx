@@ -32,7 +32,7 @@ export default function Dropdown() {
       {/* Dropdown-kalendern */}
       {open && (
         <div className="absolute top-12 left-0 bg-white shadow-lg p-4 rounded-lg z-50">
-          <p className="text-sm font-semibold">Incheckning:</p>
+          <p className="text-sm font-semibold">Ankomst:</p>
           <DatePicker
             selected={checkIn}
             onChange={(date) => setCheckIn(date ?? undefined)}
@@ -42,7 +42,7 @@ export default function Dropdown() {
             minDate={new Date()}
             className="border p-2 rounded w-full"
           />
-          <p className="text-sm font-semibold mt-2">Utcheckning:</p>
+          <p className="text-sm font-semibold mt-2">Avfärd:</p>
           <DatePicker
             selected={checkOut}
             onChange={(date) => setCheckOut(date ?? undefined)}
@@ -52,13 +52,6 @@ export default function Dropdown() {
             minDate={checkIn}
             className="border p-2 rounded w-full"
           />
-          {/* Stäng-knapp */}
-          <button
-            className="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg"
-            onClick={() => setOpen(false)}
-          >
-            Bekräfta
-          </button>
         </div>
       )}
     </div>
