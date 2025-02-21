@@ -1,4 +1,5 @@
 import React from "react";
+import Button from 'react-native';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 import pic from "./pics/IMG_9918.jpg"
@@ -23,7 +24,9 @@ const Slideshow: React.FC = () => {
 
       <div className="searchbar"> {/* Separat searchbar ovanför */}
         <div className="datebutton"></div>
-        <div className="submitbutton"></div>
+        <div className="submitbutton">
+          <a>Sök</a>
+        </div>
       </div>
       <Swiper
 

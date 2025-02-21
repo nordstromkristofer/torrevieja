@@ -47,7 +47,7 @@
 
 .datebutton {
   height: 50px;
-  border: 2px solid grey;
+  border: 1px solid black;
   width: 400px;
   background-color: white;
   border-radius: 10px;
@@ -60,9 +60,12 @@
 }
 
 .submitbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50px;
-  border: 2px solid grey;
-  width: 120px;
+  border: 1px solid rgb(0, 0, 0);
+  width: 70px;
   background-color: white;
   border-radius: 60px;
 }
