@@ -22,8 +22,8 @@ const Slideshow: React.FC = () => {
     <div className="slideshow-container">
 
       <div className="searchbar"> {/* Separat searchbar ovanför */}
-        <div className="datebuttonfrom"></div>
-        <div className="datebuttonuntil"></div>
+        <div className="datebutton"></div>
+        <div className="submitbutton"></div>
       </div>
       <Swiper
 
