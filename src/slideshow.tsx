@@ -18,8 +18,13 @@ const images = [
 
 const Slideshow: React.FC = () => {
   return (
+
     <div className="slideshow-container">
+      <div className="searchbar"> {/* Separat searchbar ovanför */}
+        <input type="text" placeholder="Search..." />
+      </div>
       <Swiper
+
         modules={[Navigation, Autoplay]}
         spaceBetween={50}
         slidesPerView={1}
@@ -28,9 +33,10 @@ const Slideshow: React.FC = () => {
         loop
         className="custom-swiper"
       >
+
         {images.map((src, index) => (
           <SwiperSlide key={index}>
-            <img src={src} alt={`Slide ${index + 1}`} className="slide-image" />
+            <div className="imgwrap">  <img src={src} alt={`Slide ${index + 1}`} className="slide-image" /></div>
           </SwiperSlide>
         ))}
       </Swiper>
