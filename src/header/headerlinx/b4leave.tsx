@@ -10,8 +10,8 @@ function B4leave() {
     <div className="Todo">
       <div className='filler'></div>
       <Header />
-      <h1 className='todorubrik'>Vid avgång – Innan ni lämnar lägenheten</h1>
-      <p>Innan ni lämnar lägenheten så ska lägenheten städas och ställas i ordning. Generellt innebär det att dammsuga, dammtorka och våt torka alla ytor i lägenheten samt tvätta använda sängkläder samt handdukar. Dammsugare finns i garderoben och resterande rengöringsprodukter finns i badrummet. Nedan följer en checklista:</p>
+      <h2 className='todorubrik'>Vid avgång – Innan ni lämnar lägenheten</h2>
+      {/* <p>Innan ni lämnar lägenheten så ska lägenheten städas och ställas i ordning. Generellt innebär det att dammsuga, dammtorka och våt torka alla ytor i lägenheten samt tvätta använda sängkläder samt handdukar. Dammsugare finns i garderoben och resterande rengöringsprodukter finns i badrummet. Nedan följer en checklista:</p> */}
       <div className='todoboxes'>
         <div className='todobox'>
           <h1 className='boxrubrik'>Tvätta</h1>
