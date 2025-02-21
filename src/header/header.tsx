@@ -12,9 +12,6 @@ function Header() {
         <div className='logocontainer'>
           <NavLink to="/" className="nav-link1">Casa de Catharina</NavLink>
         </div>
-        <div className='calendarlink'>
-          <NavLink to="/calendar" className="nav-link">Bokning via kalender</NavLink>
-        </div>
         <div className='todo'>
           <NavLink to="/todo" className="nav-link">Vid ankomst</NavLink>
         </div>

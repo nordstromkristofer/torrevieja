@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Calendar from "./calendar/Calendar"
 import Todo from './header/headerlinx/todo';
 import B4leave from './header/headerlinx/b4leave';
 import Contact from './header/headerlinx/contact';
@@ -13,7 +12,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/calendar" element={<Calendar />} />
         <Route path="/todo" element={<Todo />} />
         <Route path="/b4leave" element={<B4leave />} />
         <Route path="/contact" element={<Contact />} />
