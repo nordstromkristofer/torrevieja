@@ -9,7 +9,8 @@ function Calendar() {
     <div className="Calendar">
       <div className='filler'></div>
       <Header />
-      <BookingCalendar />
+      <div className='calendarwrapper'>      <BookingCalendar /></div>
+
     </div>
   );
 }
