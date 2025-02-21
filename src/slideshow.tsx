@@ -20,8 +20,10 @@ const Slideshow: React.FC = () => {
   return (
 
     <div className="slideshow-container">
+
       <div className="searchbar"> {/* Separat searchbar ovanför */}
-        <input type="text" placeholder="Search..." />
+        <div className="datebuttonfrom"></div>
+        <div className="datebuttonuntil"></div>
       </div>
       <Swiper
 

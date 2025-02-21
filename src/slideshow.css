@@ -16,19 +16,20 @@
 }
 
 .searchbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
   position: absolute;
+  width: 90%;
   top: 10px;
-  /* Justera vertikal position */
   left: 50%;
   transform: translateX(-50%);
-  /* Centrerar horisontellt */
-  background: rgba(255, 255, 255, 0.8);
-  /* Lätt genomskinlig bakgrund */
+  background: rgb(255 255 255 / 28%);
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 10;
-  /* Högre än swiper */
 }
 
 .searchbar input {
@@ -42,4 +43,34 @@
   position: relative;
   /* Viktigt för att searchbar inte påverkar slides */
   overflow: hidden;
+}
+
+.datebuttonfrom {
+  height: 40px;
+  border: 2px solid grey;
+  width: 275px;
+  background-color: white;
+  border-radius: 10px;
+  opacity: 55%;
+  transition: color 0.3s ease;
+}
+
+.datebuttonfrom:hover {
+  opacity: 100%;
+  border-radius: 10px;
+}
+
+.datebuttonuntil {
+  height: 40px;
+  border: 2px solid grey;
+  width: 275px;
+  background-color: white;
+  border-radius: 10px;
+  opacity: 55%;
+  transition: color 0.3s ease;
+}
+
+.datebuttonuntil:hover {
+  opacity: 100%;
+  border-radius: 10px;
 }
