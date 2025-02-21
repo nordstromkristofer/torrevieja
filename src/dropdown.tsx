@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { format } from "date-fns";
+import './dropdown.css'
 
 export default function Dropdown() {
   const [checkIn, setCheckIn] = useState<Date | undefined>(undefined);
@@ -13,6 +14,13 @@ export default function Dropdown() {
     <div className="relative w-64">
       {/* Knapp som öppnar/stänger kalendern */}
       <button
+
+        style={{
+          width: '250px',
+          borderRadius: '20px',
+          border: '1px solid black',
+          height: '50px',
+        }}
         className="w-full px-4 py-2 border rounded-lg bg-white shadow-sm text-left"
         onClick={() => setOpen(!open)}
       >
