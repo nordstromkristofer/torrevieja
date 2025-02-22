@@ -10,7 +10,7 @@ import "./slideshow.css"
 import "swiper/css";
 import "swiper/css/navigation";
 import Dropdown from "./dropdown";
-import SearchBar from "./searchbar";
+import SearchBar from "./searchbar/searchbar";
 
 const images = [
   pic,

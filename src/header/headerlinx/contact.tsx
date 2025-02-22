@@ -1,4 +1,4 @@
-import SearchBar from '../../searchbar';
+import SearchBar from '../../searchbar/searchbar';
 import Header from '../header';
 import React from 'react';
 
