@@ -1,7 +1,20 @@
-.react-datepicker-ignore-onclickoutside {
-  width: 200px;
+/*  .react-datepicker-ignore-onclickoutside {
+   width: 200px;
+ }
+
+ input {
+   width: 220px;
+ } */
+
+.react-datepicker-wrapper {
+  width: 100%;
+  /* Eller en specifik bredd, t.ex. 250px */
 }
 
-input {
-  width: 220px;
+.react-datepicker__input-container input {
+  width: 100%;
+  /* Se till att input håller samma storlek */
+  padding: 8px;
+  /* Anpassa om input ändrar höjd */
+  box-sizing: border-box;
 }
