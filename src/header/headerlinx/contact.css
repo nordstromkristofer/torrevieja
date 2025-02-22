@@ -1,0 +1,6 @@
+.contactwrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3%;
+  background-color: #fbf8f1;
+}

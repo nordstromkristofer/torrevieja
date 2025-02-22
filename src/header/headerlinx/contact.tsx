@@ -10,7 +10,8 @@ function Contact() {
   return (
     <div className="Todo">
       <div className='filler'></div>
-
+      <Header />
+      <div className='contactwrapper'></div>
     </div>
   );
 }
