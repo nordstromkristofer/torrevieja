@@ -10,6 +10,7 @@ import "./slideshow.css"
 import "swiper/css";
 import "swiper/css/navigation";
 import Dropdown from "./dropdown";
+import SearchBar from "./searchbar";
 
 const images = [
   pic,
@@ -25,7 +26,8 @@ const Slideshow: React.FC = () => {
 
       <div className="searchbar"> {/* Separat searchbar ovanför */}
         {/* <div className="datebutton"></div> */}
-        <Dropdown />
+        {/* <Dropdown /> */}
+        <SearchBar />
         <div className="submitbutton">
           <a>Sök</a>
         </div>
