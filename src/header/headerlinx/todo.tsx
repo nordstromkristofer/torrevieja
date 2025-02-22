@@ -7,7 +7,7 @@ import "./todo.css"
 
 function Todo() {
   return (
-    <div className="Todo">
+    <div className="todowrapper">
       <div className='filler'></div>
       <Header />
       <h2 className='todorubrik'>Vid ankomst- När ni kommer till lägenheten</h2>
